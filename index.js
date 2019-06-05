@@ -4,9 +4,10 @@ const clear = require('./clear');
 const path = require('path');
 const exec = require('child_process').execSync;
 const targetFoler = 'node_modules';
+const pkg = require('./package.json');
 
 program
-  .version('0.0.4')
+  .version(pkg.version)
   .parse(process.argv);
 
 if (program.args && program.args[0]) {

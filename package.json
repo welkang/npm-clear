@@ -1,6 +1,6 @@
 {
   "name": "npm-clear",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "node_modules 太多，电脑空间告急，一个命令批量删除指定文件夹下项目的 node_modules。",
   "main": "index.js",
   "bin": {
