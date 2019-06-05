@@ -1,0 +1,26 @@
+{
+  "name": "npm-clear",
+  "version": "0.0.2",
+  "description": "node_modules 太多，电脑空间告急，一个命令批量删除指定文件夹下项目的 node_modules。",
+  "main": "index.js",
+  "bin": {
+    "npmclear": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welkang/npm-clear.git"
+  },
+  "author": "welkang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welkang/npm-clear/issues"
+  },
+  "homepage": "https://github.com/welkang/npm-clear#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "rimraf": "^2.6.3"
+  }
+}
